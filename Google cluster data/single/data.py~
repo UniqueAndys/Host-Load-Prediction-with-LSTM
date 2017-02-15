@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Mar 27 22:01:34 2016
+
+@author: tyrion
+"""
+
+from os import path
+project_path = '/home/tyrion/lannister/clusterdata-2011-2/python'
+
+from pandas import read_csv
+import os
+import matplotlib.pyplot as plt
+import pickle
+
+rootDir = path.join(project_path,'machine_ids','314')
+list_dirs = os.walk(rootDir)
+for lists in os.listdir(rootDir):
+    machine_id = lists.split('.')[0]
+    lists = path.join(rootDir, lists)
+    print lists
+    single_machine_cpu_usage_df = read_csv(lists,compression='gzip')
+    f_machine_cpu_usage = []
+    for i in xrange(8352):
+#        print i
+        period_df = single_machine_cpu_usage_df[(single_machine_cpu_usage_df.start_time>=(600+i*300))&
+                                                (single_machine_cpu_usage_df.start_time<(900+i*300))]
+        single_sum = 0
+        for j in period_df.index:
+            single_sum += (period_df.loc[j,'end_time'] - period_df.loc[j,'start_time'])*period_df.loc[j,'cpu_usage']/300
+        f_machine_cpu_usage.append(single_sum)
+#    plt.figure()
+#    plt.plot(f_machine_cpu_usage)
+    output = open(path.join(project_path,'data','314',machine_id+'.pkl'),'wb')
+    pickle.dump(f_machine_cpu_usage,output)
+    output.close()

@@ -1,0 +1,840 @@
+===============================================================================
+The input_dim is 64 The hidden_dim is 100
+The interval is 1 The batch_size is 100
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+Reading pkl data...
+Loading data...
+((1000, 234, 64), (1000, 234, 8))
+((1000, 23, 64), (1000, 23, 8))
+0.221130866847
+0.116174505208
+epoch:  1, learning rate 0.05000, train_loss 0.025758, test_loss 0.006952
+epoch:  2, learning rate 0.05000, train_loss 0.024121, test_loss 0.006473
+epoch:  3, learning rate 0.05000, train_loss 0.023445, test_loss 0.006207
+epoch:  4, learning rate 0.05000, train_loss 0.023038, test_loss 0.006036
+epoch:  5, learning rate 0.05000, train_loss 0.022752, test_loss 0.005922
+epoch:  6, learning rate 0.05000, train_loss 0.022533, test_loss 0.005845
+epoch:  7, learning rate 0.05000, train_loss 0.022356, test_loss 0.005795
+epoch:  8, learning rate 0.05000, train_loss 0.022206, test_loss 0.005765
+epoch:  9, learning rate 0.05000, train_loss 0.022076, test_loss 0.005751
+epoch: 10, learning rate 0.05000, train_loss 0.021961, test_loss 0.005748
+epoch: 11, learning rate 0.05000, train_loss 0.021856, test_loss 0.005754
+epoch: 12, learning rate 0.05000, train_loss 0.021761, test_loss 0.005767
+epoch: 13, learning rate 0.05000, train_loss 0.021672, test_loss 0.005787
+epoch: 14, learning rate 0.05000, train_loss 0.021589, test_loss 0.005811
+epoch: 15, learning rate 0.05000, train_loss 0.021510, test_loss 0.005838
+epoch: 16, learning rate 0.05000, train_loss 0.021436, test_loss 0.005869
+epoch: 17, learning rate 0.05000, train_loss 0.021365, test_loss 0.005903
+epoch: 18, learning rate 0.05000, train_loss 0.021296, test_loss 0.005939
+epoch: 19, learning rate 0.05000, train_loss 0.021231, test_loss 0.005976
+epoch: 20, learning rate 0.05000, train_loss 0.021167, test_loss 0.006015
+epoch: 21, learning rate 0.05000, train_loss 0.021105, test_loss 0.006056
+epoch: 22, learning rate 0.05000, train_loss 0.021045, test_loss 0.006098
+epoch: 23, learning rate 0.05000, train_loss 0.020987, test_loss 0.006141
+epoch: 24, learning rate 0.05000, train_loss 0.020930, test_loss 0.006184
+epoch: 25, learning rate 0.05000, train_loss 0.020875, test_loss 0.006229
+epoch: 26, learning rate 0.05000, train_loss 0.020820, test_loss 0.006274
+epoch: 27, learning rate 0.05000, train_loss 0.020767, test_loss 0.006319
+epoch: 28, learning rate 0.05000, train_loss 0.020715, test_loss 0.006366
+epoch: 29, learning rate 0.05000, train_loss 0.020663, test_loss 0.006412
+epoch: 30, learning rate 0.05000, train_loss 0.020613, test_loss 0.006460
+epoch: 31, learning rate 0.00500, train_loss 0.003030, test_loss 0.002219
+epoch: 32, learning rate 0.00500, train_loss 0.002094, test_loss 0.002211
+epoch: 33, learning rate 0.00500, train_loss 0.002087, test_loss 0.002204
+epoch: 34, learning rate 0.00500, train_loss 0.002081, test_loss 0.002198
+epoch: 35, learning rate 0.00500, train_loss 0.002077, test_loss 0.002193
+epoch: 36, learning rate 0.00500, train_loss 0.002073, test_loss 0.002188
+epoch: 37, learning rate 0.00500, train_loss 0.002069, test_loss 0.002183
+epoch: 38, learning rate 0.00500, train_loss 0.002066, test_loss 0.002179
+epoch: 39, learning rate 0.00500, train_loss 0.002063, test_loss 0.002175
+epoch: 40, learning rate 0.00500, train_loss 0.002060, test_loss 0.002171
+epoch: 41, learning rate 0.00500, train_loss 0.002058, test_loss 0.002168
+epoch: 42, learning rate 0.00500, train_loss 0.002056, test_loss 0.002165
+epoch: 43, learning rate 0.00500, train_loss 0.002053, test_loss 0.002162
+epoch: 44, learning rate 0.00500, train_loss 0.002051, test_loss 0.002159
+epoch: 45, learning rate 0.00500, train_loss 0.002050, test_loss 0.002156
+epoch: 46, learning rate 0.00500, train_loss 0.002048, test_loss 0.002153
+epoch: 47, learning rate 0.00500, train_loss 0.002046, test_loss 0.002151
+epoch: 48, learning rate 0.00500, train_loss 0.002044, test_loss 0.002149
+epoch: 49, learning rate 0.00500, train_loss 0.002043, test_loss 0.002147
+epoch: 50, learning rate 0.00500, train_loss 0.002042, test_loss 0.002144
+epoch: 51, learning rate 0.00500, train_loss 0.002040, test_loss 0.002142
+epoch: 52, learning rate 0.00500, train_loss 0.002039, test_loss 0.002141
+epoch: 53, learning rate 0.00500, train_loss 0.002038, test_loss 0.002139
+epoch: 54, learning rate 0.00500, train_loss 0.002037, test_loss 0.002137
+epoch: 55, learning rate 0.00500, train_loss 0.002035, test_loss 0.002135
+epoch: 56, learning rate 0.00500, train_loss 0.002034, test_loss 0.002134
+epoch: 57, learning rate 0.00500, train_loss 0.002033, test_loss 0.002132
+epoch: 58, learning rate 0.00500, train_loss 0.002032, test_loss 0.002131
+epoch: 59, learning rate 0.00500, train_loss 0.002031, test_loss 0.002129
+epoch: 60, learning rate 0.00500, train_loss 0.002030, test_loss 0.002128
+epoch: 61, learning rate 0.00050, train_loss 0.001946, test_loss 0.001908
+epoch: 62, learning rate 0.00050, train_loss 0.001866, test_loss 0.001908
+epoch: 63, learning rate 0.00050, train_loss 0.001865, test_loss 0.001907
+epoch: 64, learning rate 0.00050, train_loss 0.001865, test_loss 0.001906
+epoch: 65, learning rate 0.00050, train_loss 0.001864, test_loss 0.001905
+epoch: 66, learning rate 0.00050, train_loss 0.001863, test_loss 0.001904
+epoch: 67, learning rate 0.00050, train_loss 0.001863, test_loss 0.001903
+epoch: 68, learning rate 0.00050, train_loss 0.001862, test_loss 0.001903
+epoch: 69, learning rate 0.00050, train_loss 0.001862, test_loss 0.001902
+epoch: 70, learning rate 0.00050, train_loss 0.001861, test_loss 0.001901
+epoch: 71, learning rate 0.00050, train_loss 0.001861, test_loss 0.001900
+epoch: 72, learning rate 0.00050, train_loss 0.001860, test_loss 0.001900
+epoch: 73, learning rate 0.00050, train_loss 0.001860, test_loss 0.001899
+epoch: 74, learning rate 0.00050, train_loss 0.001859, test_loss 0.001898
+epoch: 75, learning rate 0.00050, train_loss 0.001859, test_loss 0.001898
+epoch: 76, learning rate 0.00050, train_loss 0.001858, test_loss 0.001897
+epoch: 77, learning rate 0.00050, train_loss 0.001858, test_loss 0.001897
+epoch: 78, learning rate 0.00050, train_loss 0.001857, test_loss 0.001896
+epoch: 79, learning rate 0.00050, train_loss 0.001857, test_loss 0.001896
+epoch: 80, learning rate 0.00050, train_loss 0.001857, test_loss 0.001895
+epoch: 81, learning rate 0.00050, train_loss 0.001856, test_loss 0.001895
+epoch: 82, learning rate 0.00050, train_loss 0.001856, test_loss 0.001894
+epoch: 83, learning rate 0.00050, train_loss 0.001855, test_loss 0.001894
+epoch: 84, learning rate 0.00050, train_loss 0.001855, test_loss 0.001893
+epoch: 85, learning rate 0.00050, train_loss 0.001855, test_loss 0.001893
+epoch: 86, learning rate 0.00050, train_loss 0.001854, test_loss 0.001892
+epoch: 87, learning rate 0.00050, train_loss 0.001854, test_loss 0.001892
+epoch: 88, learning rate 0.00050, train_loss 0.001854, test_loss 0.001892
+epoch: 89, learning rate 0.00050, train_loss 0.001853, test_loss 0.001891
+epoch: 90, learning rate 0.00050, train_loss 0.001853, test_loss 0.001891
+Best train, test loss 0.001853 0.001891
+The input_dim is 64 The hidden_dim is 100
+The interval is 1 The batch_size is 1
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+===============================================================================
+===============================================================================
+The input_dim is 64 The hidden_dim is 100
+The interval is 2 The batch_size is 100
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+Reading pkl data...
+Loading data...
+((1000, 234, 64), (1000, 234, 8))
+((1000, 23, 64), (1000, 23, 8))
+0.221130866847
+0.116174505208
+epoch:  1, learning rate 0.05000, train_loss 0.024319, test_loss 0.006511
+epoch:  2, learning rate 0.05000, train_loss 0.023326, test_loss 0.006156
+epoch:  3, learning rate 0.05000, train_loss 0.022899, test_loss 0.005946
+epoch:  4, learning rate 0.05000, train_loss 0.022611, test_loss 0.005811
+epoch:  5, learning rate 0.05000, train_loss 0.022395, test_loss 0.005723
+epoch:  6, learning rate 0.05000, train_loss 0.022221, test_loss 0.005667
+epoch:  7, learning rate 0.05000, train_loss 0.022075, test_loss 0.005635
+epoch:  8, learning rate 0.05000, train_loss 0.021948, test_loss 0.005620
+epoch:  9, learning rate 0.05000, train_loss 0.021834, test_loss 0.005617
+epoch: 10, learning rate 0.05000, train_loss 0.021731, test_loss 0.005624
+epoch: 11, learning rate 0.05000, train_loss 0.021636, test_loss 0.005639
+epoch: 12, learning rate 0.05000, train_loss 0.021548, test_loss 0.005660
+epoch: 13, learning rate 0.05000, train_loss 0.021465, test_loss 0.005685
+epoch: 14, learning rate 0.05000, train_loss 0.021386, test_loss 0.005715
+epoch: 15, learning rate 0.05000, train_loss 0.021311, test_loss 0.005748
+epoch: 16, learning rate 0.05000, train_loss 0.021239, test_loss 0.005783
+epoch: 17, learning rate 0.05000, train_loss 0.021170, test_loss 0.005821
+epoch: 18, learning rate 0.05000, train_loss 0.021103, test_loss 0.005861
+epoch: 19, learning rate 0.05000, train_loss 0.021039, test_loss 0.005902
+epoch: 20, learning rate 0.05000, train_loss 0.020976, test_loss 0.005945
+epoch: 21, learning rate 0.05000, train_loss 0.020915, test_loss 0.005989
+epoch: 22, learning rate 0.05000, train_loss 0.020855, test_loss 0.006034
+epoch: 23, learning rate 0.05000, train_loss 0.020797, test_loss 0.006079
+epoch: 24, learning rate 0.05000, train_loss 0.020740, test_loss 0.006126
+epoch: 25, learning rate 0.05000, train_loss 0.020684, test_loss 0.006173
+epoch: 26, learning rate 0.05000, train_loss 0.020630, test_loss 0.006221
+epoch: 27, learning rate 0.05000, train_loss 0.020576, test_loss 0.006270
+epoch: 28, learning rate 0.05000, train_loss 0.020523, test_loss 0.006319
+epoch: 29, learning rate 0.05000, train_loss 0.020471, test_loss 0.006368
+epoch: 30, learning rate 0.05000, train_loss 0.020420, test_loss 0.006418
+epoch: 31, learning rate 0.00500, train_loss 0.002927, test_loss 0.002226
+epoch: 32, learning rate 0.00500, train_loss 0.002012, test_loss 0.002222
+epoch: 33, learning rate 0.00500, train_loss 0.002005, test_loss 0.002219
+epoch: 34, learning rate 0.00500, train_loss 0.001999, test_loss 0.002216
+epoch: 35, learning rate 0.00500, train_loss 0.001995, test_loss 0.002214
+epoch: 36, learning rate 0.00500, train_loss 0.001991, test_loss 0.002211
+epoch: 37, learning rate 0.00500, train_loss 0.001988, test_loss 0.002209
+epoch: 38, learning rate 0.00500, train_loss 0.001985, test_loss 0.002208
+epoch: 39, learning rate 0.00500, train_loss 0.001982, test_loss 0.002206
+epoch: 40, learning rate 0.00500, train_loss 0.001980, test_loss 0.002204
+epoch: 41, learning rate 0.00500, train_loss 0.001978, test_loss 0.002203
+epoch: 42, learning rate 0.00500, train_loss 0.001976, test_loss 0.002201
+epoch: 43, learning rate 0.00500, train_loss 0.001974, test_loss 0.002200
+epoch: 44, learning rate 0.00500, train_loss 0.001973, test_loss 0.002199
+epoch: 45, learning rate 0.00500, train_loss 0.001971, test_loss 0.002198
+epoch: 46, learning rate 0.00500, train_loss 0.001970, test_loss 0.002197
+epoch: 47, learning rate 0.00500, train_loss 0.001969, test_loss 0.002196
+epoch: 48, learning rate 0.00500, train_loss 0.001967, test_loss 0.002195
+epoch: 49, learning rate 0.00500, train_loss 0.001966, test_loss 0.002194
+epoch: 50, learning rate 0.00500, train_loss 0.001965, test_loss 0.002193
+epoch: 51, learning rate 0.00500, train_loss 0.001964, test_loss 0.002192
+epoch: 52, learning rate 0.00500, train_loss 0.001963, test_loss 0.002191
+epoch: 53, learning rate 0.00500, train_loss 0.001962, test_loss 0.002191
+epoch: 54, learning rate 0.00500, train_loss 0.001961, test_loss 0.002190
+epoch: 55, learning rate 0.00500, train_loss 0.001961, test_loss 0.002189
+epoch: 56, learning rate 0.00500, train_loss 0.001960, test_loss 0.002189
+epoch: 57, learning rate 0.00500, train_loss 0.001959, test_loss 0.002188
+epoch: 58, learning rate 0.00500, train_loss 0.001958, test_loss 0.002187
+epoch: 59, learning rate 0.00500, train_loss 0.001958, test_loss 0.002187
+epoch: 60, learning rate 0.00500, train_loss 0.001957, test_loss 0.002186
+epoch: 61, learning rate 0.00050, train_loss 0.001881, test_loss 0.001918
+epoch: 62, learning rate 0.00050, train_loss 0.001789, test_loss 0.001918
+epoch: 63, learning rate 0.00050, train_loss 0.001789, test_loss 0.001916
+epoch: 64, learning rate 0.00050, train_loss 0.001788, test_loss 0.001916
+epoch: 65, learning rate 0.00050, train_loss 0.001788, test_loss 0.001915
+epoch: 66, learning rate 0.00050, train_loss 0.001788, test_loss 0.001915
+epoch: 67, learning rate 0.00050, train_loss 0.001787, test_loss 0.001915
+epoch: 68, learning rate 0.00050, train_loss 0.001787, test_loss 0.001915
+epoch: 69, learning rate 0.00050, train_loss 0.001786, test_loss 0.001914
+epoch: 70, learning rate 0.00050, train_loss 0.001786, test_loss 0.001914
+epoch: 71, learning rate 0.00050, train_loss 0.001786, test_loss 0.001914
+epoch: 72, learning rate 0.00050, train_loss 0.001785, test_loss 0.001914
+epoch: 73, learning rate 0.00050, train_loss 0.001785, test_loss 0.001914
+epoch: 74, learning rate 0.00050, train_loss 0.001785, test_loss 0.001913
+epoch: 75, learning rate 0.00050, train_loss 0.001784, test_loss 0.001913
+epoch: 76, learning rate 0.00050, train_loss 0.001784, test_loss 0.001913
+epoch: 77, learning rate 0.00050, train_loss 0.001784, test_loss 0.001913
+epoch: 78, learning rate 0.00050, train_loss 0.001784, test_loss 0.001912
+epoch: 79, learning rate 0.00050, train_loss 0.001783, test_loss 0.001912
+epoch: 80, learning rate 0.00050, train_loss 0.001783, test_loss 0.001912
+epoch: 81, learning rate 0.00050, train_loss 0.001783, test_loss 0.001912
+epoch: 82, learning rate 0.00050, train_loss 0.001783, test_loss 0.001911
+epoch: 83, learning rate 0.00050, train_loss 0.001782, test_loss 0.001911
+epoch: 84, learning rate 0.00050, train_loss 0.001782, test_loss 0.001911
+epoch: 85, learning rate 0.00050, train_loss 0.001782, test_loss 0.001911
+epoch: 86, learning rate 0.00050, train_loss 0.001782, test_loss 0.001910
+epoch: 87, learning rate 0.00050, train_loss 0.001781, test_loss 0.001910
+epoch: 88, learning rate 0.00050, train_loss 0.001781, test_loss 0.001910
+epoch: 89, learning rate 0.00050, train_loss 0.001781, test_loss 0.001910
+epoch: 90, learning rate 0.00050, train_loss 0.001781, test_loss 0.001910
+Best train, test loss 0.001781 0.001910
+The input_dim is 64 The hidden_dim is 100
+The interval is 2 The batch_size is 2
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+===============================================================================
+===============================================================================
+The input_dim is 64 The hidden_dim is 100
+The interval is 3 The batch_size is 100
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+Reading pkl data...
+Loading data...
+((1000, 234, 64), (1000, 234, 8))
+((1000, 23, 64), (1000, 23, 8))
+0.221130866847
+0.116174505208
+epoch:  1, learning rate 0.05000, train_loss 0.021638, test_loss 0.011054
+epoch:  2, learning rate 0.05000, train_loss 0.020333, test_loss 0.010644
+epoch:  3, learning rate 0.05000, train_loss 0.019978, test_loss 0.010483
+epoch:  4, learning rate 0.05000, train_loss 0.019784, test_loss 0.010391
+epoch:  5, learning rate 0.05000, train_loss 0.019648, test_loss 0.010333
+epoch:  6, learning rate 0.05000, train_loss 0.019543, test_loss 0.010297
+epoch:  7, learning rate 0.05000, train_loss 0.019457, test_loss 0.010277
+epoch:  8, learning rate 0.05000, train_loss 0.019384, test_loss 0.010269
+epoch:  9, learning rate 0.05000, train_loss 0.019320, test_loss 0.010270
+epoch: 10, learning rate 0.05000, train_loss 0.019264, test_loss 0.010280
+epoch: 11, learning rate 0.05000, train_loss 0.019212, test_loss 0.010296
+epoch: 12, learning rate 0.05000, train_loss 0.019164, test_loss 0.010317
+epoch: 13, learning rate 0.05000, train_loss 0.019120, test_loss 0.010343
+epoch: 14, learning rate 0.05000, train_loss 0.019079, test_loss 0.010372
+epoch: 15, learning rate 0.05000, train_loss 0.019040, test_loss 0.010405
+epoch: 16, learning rate 0.05000, train_loss 0.019003, test_loss 0.010441
+epoch: 17, learning rate 0.05000, train_loss 0.018968, test_loss 0.010479
+epoch: 18, learning rate 0.05000, train_loss 0.018935, test_loss 0.010519
+epoch: 19, learning rate 0.05000, train_loss 0.018903, test_loss 0.010561
+epoch: 20, learning rate 0.05000, train_loss 0.018873, test_loss 0.010605
+epoch: 21, learning rate 0.05000, train_loss 0.018843, test_loss 0.010651
+epoch: 22, learning rate 0.05000, train_loss 0.018815, test_loss 0.010697
+epoch: 23, learning rate 0.05000, train_loss 0.018788, test_loss 0.010745
+epoch: 24, learning rate 0.05000, train_loss 0.018761, test_loss 0.010794
+epoch: 25, learning rate 0.05000, train_loss 0.018735, test_loss 0.010843
+epoch: 26, learning rate 0.05000, train_loss 0.018710, test_loss 0.010894
+epoch: 27, learning rate 0.05000, train_loss 0.018686, test_loss 0.010946
+epoch: 28, learning rate 0.05000, train_loss 0.018662, test_loss 0.010998
+epoch: 29, learning rate 0.05000, train_loss 0.018639, test_loss 0.011050
+epoch: 30, learning rate 0.05000, train_loss 0.018617, test_loss 0.011104
+epoch: 31, learning rate 0.00500, train_loss 0.004405, test_loss 0.002421
+epoch: 32, learning rate 0.00500, train_loss 0.002152, test_loss 0.002415
+epoch: 33, learning rate 0.00500, train_loss 0.002144, test_loss 0.002409
+epoch: 34, learning rate 0.00500, train_loss 0.002137, test_loss 0.002404
+epoch: 35, learning rate 0.00500, train_loss 0.002132, test_loss 0.002399
+epoch: 36, learning rate 0.00500, train_loss 0.002127, test_loss 0.002394
+epoch: 37, learning rate 0.00500, train_loss 0.002123, test_loss 0.002390
+epoch: 38, learning rate 0.00500, train_loss 0.002119, test_loss 0.002386
+epoch: 39, learning rate 0.00500, train_loss 0.002116, test_loss 0.002383
+epoch: 40, learning rate 0.00500, train_loss 0.002113, test_loss 0.002380
+epoch: 41, learning rate 0.00500, train_loss 0.002110, test_loss 0.002377
+epoch: 42, learning rate 0.00500, train_loss 0.002107, test_loss 0.002374
+epoch: 43, learning rate 0.00500, train_loss 0.002105, test_loss 0.002372
+epoch: 44, learning rate 0.00500, train_loss 0.002103, test_loss 0.002370
+epoch: 45, learning rate 0.00500, train_loss 0.002101, test_loss 0.002368
+epoch: 46, learning rate 0.00500, train_loss 0.002099, test_loss 0.002366
+epoch: 47, learning rate 0.00500, train_loss 0.002097, test_loss 0.002364
+epoch: 48, learning rate 0.00500, train_loss 0.002096, test_loss 0.002362
+epoch: 49, learning rate 0.00500, train_loss 0.002094, test_loss 0.002361
+epoch: 50, learning rate 0.00500, train_loss 0.002093, test_loss 0.002359
+epoch: 51, learning rate 0.00500, train_loss 0.002091, test_loss 0.002358
+epoch: 52, learning rate 0.00500, train_loss 0.002090, test_loss 0.002357
+epoch: 53, learning rate 0.00500, train_loss 0.002089, test_loss 0.002356
+epoch: 54, learning rate 0.00500, train_loss 0.002088, test_loss 0.002354
+epoch: 55, learning rate 0.00500, train_loss 0.002087, test_loss 0.002353
+epoch: 56, learning rate 0.00500, train_loss 0.002086, test_loss 0.002352
+epoch: 57, learning rate 0.00500, train_loss 0.002085, test_loss 0.002351
+epoch: 58, learning rate 0.00500, train_loss 0.002084, test_loss 0.002350
+epoch: 59, learning rate 0.00500, train_loss 0.002083, test_loss 0.002349
+epoch: 60, learning rate 0.00500, train_loss 0.002082, test_loss 0.002349
+epoch: 61, learning rate 0.00050, train_loss 0.002001, test_loss 0.002079
+epoch: 62, learning rate 0.00050, train_loss 0.001918, test_loss 0.002081
+epoch: 63, learning rate 0.00050, train_loss 0.001916, test_loss 0.002080
+epoch: 64, learning rate 0.00050, train_loss 0.001914, test_loss 0.002078
+epoch: 65, learning rate 0.00050, train_loss 0.001914, test_loss 0.002077
+epoch: 66, learning rate 0.00050, train_loss 0.001914, test_loss 0.002075
+epoch: 67, learning rate 0.00050, train_loss 0.001913, test_loss 0.002075
+epoch: 68, learning rate 0.00050, train_loss 0.001913, test_loss 0.002074
+epoch: 69, learning rate 0.00050, train_loss 0.001912, test_loss 0.002074
+epoch: 70, learning rate 0.00050, train_loss 0.001912, test_loss 0.002073
+epoch: 71, learning rate 0.00050, train_loss 0.001912, test_loss 0.002073
+epoch: 72, learning rate 0.00050, train_loss 0.001911, test_loss 0.002072
+epoch: 73, learning rate 0.00050, train_loss 0.001911, test_loss 0.002072
+epoch: 74, learning rate 0.00050, train_loss 0.001911, test_loss 0.002071
+epoch: 75, learning rate 0.00050, train_loss 0.001910, test_loss 0.002071
+epoch: 76, learning rate 0.00050, train_loss 0.001910, test_loss 0.002071
+epoch: 77, learning rate 0.00050, train_loss 0.001910, test_loss 0.002070
+epoch: 78, learning rate 0.00050, train_loss 0.001909, test_loss 0.002070
+epoch: 79, learning rate 0.00050, train_loss 0.001909, test_loss 0.002069
+epoch: 80, learning rate 0.00050, train_loss 0.001909, test_loss 0.002069
+epoch: 81, learning rate 0.00050, train_loss 0.001908, test_loss 0.002069
+epoch: 82, learning rate 0.00050, train_loss 0.001908, test_loss 0.002068
+epoch: 83, learning rate 0.00050, train_loss 0.001908, test_loss 0.002068
+epoch: 84, learning rate 0.00050, train_loss 0.001908, test_loss 0.002068
+epoch: 85, learning rate 0.00050, train_loss 0.001907, test_loss 0.002068
+epoch: 86, learning rate 0.00050, train_loss 0.001907, test_loss 0.002067
+epoch: 87, learning rate 0.00050, train_loss 0.001907, test_loss 0.002067
+epoch: 88, learning rate 0.00050, train_loss 0.001907, test_loss 0.002067
+epoch: 89, learning rate 0.00050, train_loss 0.001906, test_loss 0.002066
+epoch: 90, learning rate 0.00050, train_loss 0.001906, test_loss 0.002066
+Best train, test loss 0.001906 0.002066
+The input_dim is 64 The hidden_dim is 100
+The interval is 3 The batch_size is 3
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+===============================================================================
+===============================================================================
+The input_dim is 64 The hidden_dim is 100
+The interval is 4 The batch_size is 100
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+Reading pkl data...
+Loading data...
+((1000, 234, 64), (1000, 234, 8))
+((1000, 23, 64), (1000, 23, 8))
+0.221130866847
+0.116174505208
+epoch:  1, learning rate 0.05000, train_loss 0.020112, test_loss 0.026532
+epoch:  2, learning rate 0.05000, train_loss 0.019651, test_loss 0.026120
+epoch:  3, learning rate 0.05000, train_loss 0.019492, test_loss 0.025884
+epoch:  4, learning rate 0.05000, train_loss 0.019412, test_loss 0.025732
+epoch:  5, learning rate 0.05000, train_loss 0.019365, test_loss 0.025635
+epoch:  6, learning rate 0.05000, train_loss 0.019338, test_loss 0.025577
+epoch:  7, learning rate 0.05000, train_loss 0.019322, test_loss 0.025549
+epoch:  8, learning rate 0.05000, train_loss 0.019315, test_loss 0.025543
+epoch:  9, learning rate 0.05000, train_loss 0.019314, test_loss 0.025555
+epoch: 10, learning rate 0.05000, train_loss 0.019316, test_loss 0.025581
+epoch: 11, learning rate 0.05000, train_loss 0.019323, test_loss 0.025617
+epoch: 12, learning rate 0.05000, train_loss 0.019332, test_loss 0.025663
+epoch: 13, learning rate 0.05000, train_loss 0.019343, test_loss 0.025715
+epoch: 14, learning rate 0.05000, train_loss 0.019356, test_loss 0.025774
+epoch: 15, learning rate 0.05000, train_loss 0.019371, test_loss 0.025838
+epoch: 16, learning rate 0.05000, train_loss 0.019387, test_loss 0.025905
+epoch: 17, learning rate 0.05000, train_loss 0.019404, test_loss 0.025976
+epoch: 18, learning rate 0.05000, train_loss 0.019423, test_loss 0.026050
+epoch: 19, learning rate 0.05000, train_loss 0.019442, test_loss 0.026127
+epoch: 20, learning rate 0.05000, train_loss 0.019462, test_loss 0.026205
+epoch: 21, learning rate 0.05000, train_loss 0.019483, test_loss 0.026286
+epoch: 22, learning rate 0.05000, train_loss 0.019505, test_loss 0.026368
+epoch: 23, learning rate 0.05000, train_loss 0.019528, test_loss 0.026451
+epoch: 24, learning rate 0.05000, train_loss 0.019551, test_loss 0.026536
+epoch: 25, learning rate 0.05000, train_loss 0.019575, test_loss 0.026622
+epoch: 26, learning rate 0.05000, train_loss 0.019599, test_loss 0.026709
+epoch: 27, learning rate 0.05000, train_loss 0.019624, test_loss 0.026797
+epoch: 28, learning rate 0.05000, train_loss 0.019649, test_loss 0.026886
+epoch: 29, learning rate 0.05000, train_loss 0.019675, test_loss 0.026975
+epoch: 30, learning rate 0.05000, train_loss 0.019702, test_loss 0.027066
+epoch: 31, learning rate 0.00500, train_loss 0.011169, test_loss 0.002640
+epoch: 32, learning rate 0.00500, train_loss 0.002230, test_loss 0.002632
+epoch: 33, learning rate 0.00500, train_loss 0.002220, test_loss 0.002627
+epoch: 34, learning rate 0.00500, train_loss 0.002213, test_loss 0.002623
+epoch: 35, learning rate 0.00500, train_loss 0.002207, test_loss 0.002619
+epoch: 36, learning rate 0.00500, train_loss 0.002203, test_loss 0.002616
+epoch: 37, learning rate 0.00500, train_loss 0.002199, test_loss 0.002614
+epoch: 38, learning rate 0.00500, train_loss 0.002196, test_loss 0.002611
+epoch: 39, learning rate 0.00500, train_loss 0.002193, test_loss 0.002609
+epoch: 40, learning rate 0.00500, train_loss 0.002191, test_loss 0.002607
+epoch: 41, learning rate 0.00500, train_loss 0.002189, test_loss 0.002605
+epoch: 42, learning rate 0.00500, train_loss 0.002187, test_loss 0.002603
+epoch: 43, learning rate 0.00500, train_loss 0.002185, test_loss 0.002601
+epoch: 44, learning rate 0.00500, train_loss 0.002183, test_loss 0.002600
+epoch: 45, learning rate 0.00500, train_loss 0.002182, test_loss 0.002598
+epoch: 46, learning rate 0.00500, train_loss 0.002180, test_loss 0.002596
+epoch: 47, learning rate 0.00500, train_loss 0.002179, test_loss 0.002595
+epoch: 48, learning rate 0.00500, train_loss 0.002178, test_loss 0.002593
+epoch: 49, learning rate 0.00500, train_loss 0.002177, test_loss 0.002592
+epoch: 50, learning rate 0.00500, train_loss 0.002176, test_loss 0.002591
+epoch: 51, learning rate 0.00500, train_loss 0.002175, test_loss 0.002589
+epoch: 52, learning rate 0.00500, train_loss 0.002174, test_loss 0.002588
+epoch: 53, learning rate 0.00500, train_loss 0.002173, test_loss 0.002587
+epoch: 54, learning rate 0.00500, train_loss 0.002172, test_loss 0.002586
+epoch: 55, learning rate 0.00500, train_loss 0.002171, test_loss 0.002584
+epoch: 56, learning rate 0.00500, train_loss 0.002170, test_loss 0.002583
+epoch: 57, learning rate 0.00500, train_loss 0.002170, test_loss 0.002582
+epoch: 58, learning rate 0.00500, train_loss 0.002169, test_loss 0.002581
+epoch: 59, learning rate 0.00500, train_loss 0.002168, test_loss 0.002580
+epoch: 60, learning rate 0.00500, train_loss 0.002167, test_loss 0.002579
+epoch: 61, learning rate 0.00050, train_loss 0.002094, test_loss 0.002286
+epoch: 62, learning rate 0.00050, train_loss 0.002003, test_loss 0.002292
+epoch: 63, learning rate 0.00050, train_loss 0.002000, test_loss 0.002286
+epoch: 64, learning rate 0.00050, train_loss 0.002000, test_loss 0.002285
+epoch: 65, learning rate 0.00050, train_loss 0.001999, test_loss 0.002284
+epoch: 66, learning rate 0.00050, train_loss 0.001999, test_loss 0.002283
+epoch: 67, learning rate 0.00050, train_loss 0.001998, test_loss 0.002282
+epoch: 68, learning rate 0.00050, train_loss 0.001998, test_loss 0.002281
+epoch: 69, learning rate 0.00050, train_loss 0.001997, test_loss 0.002281
+epoch: 70, learning rate 0.00050, train_loss 0.001997, test_loss 0.002280
+epoch: 71, learning rate 0.00050, train_loss 0.001996, test_loss 0.002279
+epoch: 72, learning rate 0.00050, train_loss 0.001996, test_loss 0.002279
+epoch: 73, learning rate 0.00050, train_loss 0.001996, test_loss 0.002278
+epoch: 74, learning rate 0.00050, train_loss 0.001995, test_loss 0.002278
+epoch: 75, learning rate 0.00050, train_loss 0.001995, test_loss 0.002277
+epoch: 76, learning rate 0.00050, train_loss 0.001994, test_loss 0.002277
+epoch: 77, learning rate 0.00050, train_loss 0.001994, test_loss 0.002276
+epoch: 78, learning rate 0.00050, train_loss 0.001994, test_loss 0.002276
+epoch: 79, learning rate 0.00050, train_loss 0.001993, test_loss 0.002275
+epoch: 80, learning rate 0.00050, train_loss 0.001993, test_loss 0.002275
+epoch: 81, learning rate 0.00050, train_loss 0.001992, test_loss 0.002274
+epoch: 82, learning rate 0.00050, train_loss 0.001992, test_loss 0.002274
+epoch: 83, learning rate 0.00050, train_loss 0.001992, test_loss 0.002274
+epoch: 84, learning rate 0.00050, train_loss 0.001991, test_loss 0.002273
+epoch: 85, learning rate 0.00050, train_loss 0.001991, test_loss 0.002273
+epoch: 86, learning rate 0.00050, train_loss 0.001991, test_loss 0.002272
+epoch: 87, learning rate 0.00050, train_loss 0.001990, test_loss 0.002272
+epoch: 88, learning rate 0.00050, train_loss 0.001990, test_loss 0.002272
+epoch: 89, learning rate 0.00050, train_loss 0.001990, test_loss 0.002271
+epoch: 90, learning rate 0.00050, train_loss 0.001990, test_loss 0.002271
+Best train, test loss 0.001990 0.002271
+The input_dim is 64 The hidden_dim is 100
+The interval is 4 The batch_size is 4
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+===============================================================================
+===============================================================================
+The input_dim is 64 The hidden_dim is 100
+The interval is 5 The batch_size is 100
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+Reading pkl data...
+Loading data...
+((1000, 234, 64), (1000, 234, 8))
+((1000, 23, 64), (1000, 23, 8))
+0.221130866847
+0.116174505208
+epoch:  1, learning rate 0.05000, train_loss 0.019478, test_loss 0.014488
+epoch:  2, learning rate 0.05000, train_loss 0.018958, test_loss 0.014317
+epoch:  3, learning rate 0.05000, train_loss 0.018781, test_loss 0.014251
+epoch:  4, learning rate 0.05000, train_loss 0.018682, test_loss 0.014224
+epoch:  5, learning rate 0.05000, train_loss 0.018613, test_loss 0.014219
+epoch:  6, learning rate 0.05000, train_loss 0.018561, test_loss 0.014228
+epoch:  7, learning rate 0.05000, train_loss 0.018519, test_loss 0.014250
+epoch:  8, learning rate 0.05000, train_loss 0.018484, test_loss 0.014280
+epoch:  9, learning rate 0.05000, train_loss 0.018453, test_loss 0.014317
+epoch: 10, learning rate 0.05000, train_loss 0.018427, test_loss 0.014360
+epoch: 11, learning rate 0.05000, train_loss 0.018403, test_loss 0.014408
+epoch: 12, learning rate 0.05000, train_loss 0.018382, test_loss 0.014460
+epoch: 13, learning rate 0.05000, train_loss 0.018362, test_loss 0.014516
+epoch: 14, learning rate 0.05000, train_loss 0.018344, test_loss 0.014574
+epoch: 15, learning rate 0.05000, train_loss 0.018328, test_loss 0.014635
+epoch: 16, learning rate 0.05000, train_loss 0.018313, test_loss 0.014697
+epoch: 17, learning rate 0.05000, train_loss 0.018299, test_loss 0.014762
+epoch: 18, learning rate 0.05000, train_loss 0.018286, test_loss 0.014828
+epoch: 19, learning rate 0.05000, train_loss 0.018273, test_loss 0.014895
+epoch: 20, learning rate 0.05000, train_loss 0.018262, test_loss 0.014963
+epoch: 21, learning rate 0.05000, train_loss 0.018252, test_loss 0.015033
+epoch: 22, learning rate 0.05000, train_loss 0.018242, test_loss 0.015103
+epoch: 23, learning rate 0.05000, train_loss 0.018233, test_loss 0.015174
+epoch: 24, learning rate 0.05000, train_loss 0.018224, test_loss 0.015245
+epoch: 25, learning rate 0.05000, train_loss 0.018216, test_loss 0.015318
+epoch: 26, learning rate 0.05000, train_loss 0.018209, test_loss 0.015390
+epoch: 27, learning rate 0.05000, train_loss 0.018202, test_loss 0.015464
+epoch: 28, learning rate 0.05000, train_loss 0.018196, test_loss 0.015537
+epoch: 29, learning rate 0.05000, train_loss 0.018190, test_loss 0.015612
+epoch: 30, learning rate 0.05000, train_loss 0.018185, test_loss 0.015686
+epoch: 31, learning rate 0.00500, train_loss 0.006182, test_loss 0.002585
+epoch: 32, learning rate 0.00500, train_loss 0.002304, test_loss 0.002563
+epoch: 33, learning rate 0.00500, train_loss 0.002293, test_loss 0.002545
+epoch: 34, learning rate 0.00500, train_loss 0.002285, test_loss 0.002529
+epoch: 35, learning rate 0.00500, train_loss 0.002277, test_loss 0.002515
+epoch: 36, learning rate 0.00500, train_loss 0.002271, test_loss 0.002503
+epoch: 37, learning rate 0.00500, train_loss 0.002266, test_loss 0.002492
+epoch: 38, learning rate 0.00500, train_loss 0.002261, test_loss 0.002482
+epoch: 39, learning rate 0.00500, train_loss 0.002257, test_loss 0.002473
+epoch: 40, learning rate 0.00500, train_loss 0.002253, test_loss 0.002465
+epoch: 41, learning rate 0.00500, train_loss 0.002250, test_loss 0.002458
+epoch: 42, learning rate 0.00500, train_loss 0.002246, test_loss 0.002451
+epoch: 43, learning rate 0.00500, train_loss 0.002243, test_loss 0.002444
+epoch: 44, learning rate 0.00500, train_loss 0.002240, test_loss 0.002438
+epoch: 45, learning rate 0.00500, train_loss 0.002238, test_loss 0.002432
+epoch: 46, learning rate 0.00500, train_loss 0.002235, test_loss 0.002427
+epoch: 47, learning rate 0.00500, train_loss 0.002233, test_loss 0.002422
+epoch: 48, learning rate 0.00500, train_loss 0.002231, test_loss 0.002417
+epoch: 49, learning rate 0.00500, train_loss 0.002229, test_loss 0.002412
+epoch: 50, learning rate 0.00500, train_loss 0.002227, test_loss 0.002408
+epoch: 51, learning rate 0.00500, train_loss 0.002225, test_loss 0.002404
+epoch: 52, learning rate 0.00500, train_loss 0.002224, test_loss 0.002400
+epoch: 53, learning rate 0.00500, train_loss 0.002222, test_loss 0.002397
+epoch: 54, learning rate 0.00500, train_loss 0.002221, test_loss 0.002393
+epoch: 55, learning rate 0.00500, train_loss 0.002219, test_loss 0.002390
+epoch: 56, learning rate 0.00500, train_loss 0.002218, test_loss 0.002386
+epoch: 57, learning rate 0.00500, train_loss 0.002217, test_loss 0.002383
+epoch: 58, learning rate 0.00500, train_loss 0.002216, test_loss 0.002380
+epoch: 59, learning rate 0.00500, train_loss 0.002215, test_loss 0.002378
+epoch: 60, learning rate 0.00500, train_loss 0.002213, test_loss 0.002375
+epoch: 61, learning rate 0.00050, train_loss 0.002075, test_loss 0.002260
+epoch: 62, learning rate 0.00050, train_loss 0.002039, test_loss 0.002259
+epoch: 63, learning rate 0.00050, train_loss 0.002039, test_loss 0.002258
+epoch: 64, learning rate 0.00050, train_loss 0.002038, test_loss 0.002257
+epoch: 65, learning rate 0.00050, train_loss 0.002037, test_loss 0.002256
+epoch: 66, learning rate 0.00050, train_loss 0.002036, test_loss 0.002255
+epoch: 67, learning rate 0.00050, train_loss 0.002036, test_loss 0.002254
+epoch: 68, learning rate 0.00050, train_loss 0.002035, test_loss 0.002254
+epoch: 69, learning rate 0.00050, train_loss 0.002035, test_loss 0.002253
+epoch: 70, learning rate 0.00050, train_loss 0.002034, test_loss 0.002252
+epoch: 71, learning rate 0.00050, train_loss 0.002033, test_loss 0.002251
+epoch: 72, learning rate 0.00050, train_loss 0.002033, test_loss 0.002251
+epoch: 73, learning rate 0.00050, train_loss 0.002032, test_loss 0.002250
+epoch: 74, learning rate 0.00050, train_loss 0.002032, test_loss 0.002249
+epoch: 75, learning rate 0.00050, train_loss 0.002031, test_loss 0.002249
+epoch: 76, learning rate 0.00050, train_loss 0.002031, test_loss 0.002248
+epoch: 77, learning rate 0.00050, train_loss 0.002030, test_loss 0.002248
+epoch: 78, learning rate 0.00050, train_loss 0.002030, test_loss 0.002247
+epoch: 79, learning rate 0.00050, train_loss 0.002029, test_loss 0.002247
+epoch: 80, learning rate 0.00050, train_loss 0.002029, test_loss 0.002246
+epoch: 81, learning rate 0.00050, train_loss 0.002028, test_loss 0.002246
+epoch: 82, learning rate 0.00050, train_loss 0.002028, test_loss 0.002245
+epoch: 83, learning rate 0.00050, train_loss 0.002028, test_loss 0.002245
+epoch: 84, learning rate 0.00050, train_loss 0.002027, test_loss 0.002244
+epoch: 85, learning rate 0.00050, train_loss 0.002027, test_loss 0.002244
+epoch: 86, learning rate 0.00050, train_loss 0.002026, test_loss 0.002243
+epoch: 87, learning rate 0.00050, train_loss 0.002026, test_loss 0.002243
+epoch: 88, learning rate 0.00050, train_loss 0.002026, test_loss 0.002242
+epoch: 89, learning rate 0.00050, train_loss 0.002025, test_loss 0.002242
+epoch: 90, learning rate 0.00050, train_loss 0.002025, test_loss 0.002242
+Best train, test loss 0.002025 0.002242
+The input_dim is 64 The hidden_dim is 100
+The interval is 5 The batch_size is 5
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+===============================================================================
+===============================================================================
+The input_dim is 64 The hidden_dim is 100
+The interval is 6 The batch_size is 100
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+Reading pkl data...
+Loading data...
+((1000, 234, 64), (1000, 234, 8))
+((1000, 23, 64), (1000, 23, 8))
+0.221130866847
+0.116174505208
+epoch:  1, learning rate 0.05000, train_loss 0.019480, test_loss 0.013193
+epoch:  2, learning rate 0.05000, train_loss 0.018550, test_loss 0.012848
+epoch:  3, learning rate 0.05000, train_loss 0.018308, test_loss 0.012692
+epoch:  4, learning rate 0.05000, train_loss 0.018178, test_loss 0.012604
+epoch:  5, learning rate 0.05000, train_loss 0.018090, test_loss 0.012554
+epoch:  6, learning rate 0.05000, train_loss 0.018025, test_loss 0.012529
+epoch:  7, learning rate 0.05000, train_loss 0.017974, test_loss 0.012523
+epoch:  8, learning rate 0.05000, train_loss 0.017931, test_loss 0.012531
+epoch:  9, learning rate 0.05000, train_loss 0.017895, test_loss 0.012550
+epoch: 10, learning rate 0.05000, train_loss 0.017863, test_loss 0.012577
+epoch: 11, learning rate 0.05000, train_loss 0.017835, test_loss 0.012612
+epoch: 12, learning rate 0.05000, train_loss 0.017810, test_loss 0.012652
+epoch: 13, learning rate 0.05000, train_loss 0.017786, test_loss 0.012697
+epoch: 14, learning rate 0.05000, train_loss 0.017765, test_loss 0.012745
+epoch: 15, learning rate 0.05000, train_loss 0.017745, test_loss 0.012798
+epoch: 16, learning rate 0.05000, train_loss 0.017726, test_loss 0.012853
+epoch: 17, learning rate 0.05000, train_loss 0.017708, test_loss 0.012910
+epoch: 18, learning rate 0.05000, train_loss 0.017692, test_loss 0.012970
+epoch: 19, learning rate 0.05000, train_loss 0.017676, test_loss 0.013031
+epoch: 20, learning rate 0.05000, train_loss 0.017661, test_loss 0.013094
+epoch: 21, learning rate 0.05000, train_loss 0.017647, test_loss 0.013159
+epoch: 22, learning rate 0.05000, train_loss 0.017633, test_loss 0.013225
+epoch: 23, learning rate 0.05000, train_loss 0.017621, test_loss 0.013292
+epoch: 24, learning rate 0.05000, train_loss 0.017609, test_loss 0.013361
+epoch: 25, learning rate 0.05000, train_loss 0.017597, test_loss 0.013430
+epoch: 26, learning rate 0.05000, train_loss 0.017586, test_loss 0.013500
+epoch: 27, learning rate 0.05000, train_loss 0.017575, test_loss 0.013571
+epoch: 28, learning rate 0.05000, train_loss 0.017565, test_loss 0.013643
+epoch: 29, learning rate 0.05000, train_loss 0.017556, test_loss 0.013715
+epoch: 30, learning rate 0.05000, train_loss 0.017547, test_loss 0.013788
+epoch: 31, learning rate 0.00500, train_loss 0.005609, test_loss 0.002338
+epoch: 32, learning rate 0.00500, train_loss 0.002252, test_loss 0.002333
+epoch: 33, learning rate 0.00500, train_loss 0.002243, test_loss 0.002332
+epoch: 34, learning rate 0.00500, train_loss 0.002237, test_loss 0.002332
+epoch: 35, learning rate 0.00500, train_loss 0.002233, test_loss 0.002331
+epoch: 36, learning rate 0.00500, train_loss 0.002229, test_loss 0.002331
+epoch: 37, learning rate 0.00500, train_loss 0.002226, test_loss 0.002331
+epoch: 38, learning rate 0.00500, train_loss 0.002223, test_loss 0.002331
+epoch: 39, learning rate 0.00500, train_loss 0.002220, test_loss 0.002331
+epoch: 40, learning rate 0.00500, train_loss 0.002218, test_loss 0.002331
+epoch: 41, learning rate 0.00500, train_loss 0.002216, test_loss 0.002331
+epoch: 42, learning rate 0.00500, train_loss 0.002215, test_loss 0.002332
+epoch: 43, learning rate 0.00500, train_loss 0.002213, test_loss 0.002332
+epoch: 44, learning rate 0.00500, train_loss 0.002212, test_loss 0.002333
+epoch: 45, learning rate 0.00500, train_loss 0.002211, test_loss 0.002333
+epoch: 46, learning rate 0.00500, train_loss 0.002209, test_loss 0.002334
+epoch: 47, learning rate 0.00500, train_loss 0.002208, test_loss 0.002334
+epoch: 48, learning rate 0.00500, train_loss 0.002207, test_loss 0.002335
+epoch: 49, learning rate 0.00500, train_loss 0.002207, test_loss 0.002336
+epoch: 50, learning rate 0.00500, train_loss 0.002206, test_loss 0.002337
+epoch: 51, learning rate 0.00500, train_loss 0.002205, test_loss 0.002337
+epoch: 52, learning rate 0.00500, train_loss 0.002204, test_loss 0.002338
+epoch: 53, learning rate 0.00500, train_loss 0.002204, test_loss 0.002339
+epoch: 54, learning rate 0.00500, train_loss 0.002203, test_loss 0.002340
+epoch: 55, learning rate 0.00500, train_loss 0.002203, test_loss 0.002340
+epoch: 56, learning rate 0.00500, train_loss 0.002202, test_loss 0.002341
+epoch: 57, learning rate 0.00500, train_loss 0.002202, test_loss 0.002342
+epoch: 58, learning rate 0.00500, train_loss 0.002201, test_loss 0.002342
+epoch: 59, learning rate 0.00500, train_loss 0.002201, test_loss 0.002343
+epoch: 60, learning rate 0.00500, train_loss 0.002201, test_loss 0.002344
+epoch: 61, learning rate 0.00050, train_loss 0.002140, test_loss 0.002060
+epoch: 62, learning rate 0.00050, train_loss 0.002039, test_loss 0.002059
+epoch: 63, learning rate 0.00050, train_loss 0.002038, test_loss 0.002059
+epoch: 64, learning rate 0.00050, train_loss 0.002038, test_loss 0.002059
+epoch: 65, learning rate 0.00050, train_loss 0.002037, test_loss 0.002059
+epoch: 66, learning rate 0.00050, train_loss 0.002037, test_loss 0.002059
+epoch: 67, learning rate 0.00050, train_loss 0.002036, test_loss 0.002058
+epoch: 68, learning rate 0.00050, train_loss 0.002036, test_loss 0.002058
+epoch: 69, learning rate 0.00050, train_loss 0.002036, test_loss 0.002058
+epoch: 70, learning rate 0.00050, train_loss 0.002035, test_loss 0.002058
+epoch: 71, learning rate 0.00050, train_loss 0.002035, test_loss 0.002057
+epoch: 72, learning rate 0.00050, train_loss 0.002034, test_loss 0.002057
+epoch: 73, learning rate 0.00050, train_loss 0.002034, test_loss 0.002057
+epoch: 74, learning rate 0.00050, train_loss 0.002033, test_loss 0.002056
+epoch: 75, learning rate 0.00050, train_loss 0.002033, test_loss 0.002056
+epoch: 76, learning rate 0.00050, train_loss 0.002033, test_loss 0.002056
+epoch: 77, learning rate 0.00050, train_loss 0.002032, test_loss 0.002056
+epoch: 78, learning rate 0.00050, train_loss 0.002032, test_loss 0.002055
+epoch: 79, learning rate 0.00050, train_loss 0.002032, test_loss 0.002055
+epoch: 80, learning rate 0.00050, train_loss 0.002031, test_loss 0.002055
+epoch: 81, learning rate 0.00050, train_loss 0.002031, test_loss 0.002054
+epoch: 82, learning rate 0.00050, train_loss 0.002031, test_loss 0.002054
+epoch: 83, learning rate 0.00050, train_loss 0.002030, test_loss 0.002054
+epoch: 84, learning rate 0.00050, train_loss 0.002030, test_loss 0.002054
+epoch: 85, learning rate 0.00050, train_loss 0.002030, test_loss 0.002053
+epoch: 86, learning rate 0.00050, train_loss 0.002030, test_loss 0.002053
+epoch: 87, learning rate 0.00050, train_loss 0.002029, test_loss 0.002053
+epoch: 88, learning rate 0.00050, train_loss 0.002029, test_loss 0.002053
+epoch: 89, learning rate 0.00050, train_loss 0.002029, test_loss 0.002052
+epoch: 90, learning rate 0.00050, train_loss 0.002028, test_loss 0.002052
+Best train, test loss 0.002028 0.002052
+The input_dim is 64 The hidden_dim is 100
+The interval is 6 The batch_size is 6
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+===============================================================================
+===============================================================================
+The input_dim is 64 The hidden_dim is 100
+The interval is 7 The batch_size is 100
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+Reading pkl data...
+Loading data...
+((1000, 234, 64), (1000, 234, 8))
+((1000, 23, 64), (1000, 23, 8))
+0.221130866847
+0.116174505208
+epoch:  1, learning rate 0.05000, train_loss 0.020570, test_loss 0.008899
+epoch:  2, learning rate 0.05000, train_loss 0.019957, test_loss 0.008657
+epoch:  3, learning rate 0.05000, train_loss 0.019787, test_loss 0.008536
+epoch:  4, learning rate 0.05000, train_loss 0.019680, test_loss 0.008471
+epoch:  5, learning rate 0.05000, train_loss 0.019597, test_loss 0.008440
+epoch:  6, learning rate 0.05000, train_loss 0.019525, test_loss 0.008433
+epoch:  7, learning rate 0.05000, train_loss 0.019462, test_loss 0.008442
+epoch:  8, learning rate 0.05000, train_loss 0.019403, test_loss 0.008462
+epoch:  9, learning rate 0.05000, train_loss 0.019347, test_loss 0.008490
+epoch: 10, learning rate 0.05000, train_loss 0.019295, test_loss 0.008524
+epoch: 11, learning rate 0.05000, train_loss 0.019244, test_loss 0.008563
+epoch: 12, learning rate 0.05000, train_loss 0.019196, test_loss 0.008606
+epoch: 13, learning rate 0.05000, train_loss 0.019149, test_loss 0.008651
+epoch: 14, learning rate 0.05000, train_loss 0.019104, test_loss 0.008699
+epoch: 15, learning rate 0.05000, train_loss 0.019060, test_loss 0.008748
+epoch: 16, learning rate 0.05000, train_loss 0.019017, test_loss 0.008798
+epoch: 17, learning rate 0.05000, train_loss 0.018975, test_loss 0.008850
+epoch: 18, learning rate 0.05000, train_loss 0.018934, test_loss 0.008903
+epoch: 19, learning rate 0.05000, train_loss 0.018894, test_loss 0.008957
+epoch: 20, learning rate 0.05000, train_loss 0.018855, test_loss 0.009012
+epoch: 21, learning rate 0.05000, train_loss 0.018817, test_loss 0.009068
+epoch: 22, learning rate 0.05000, train_loss 0.018780, test_loss 0.009124
+epoch: 23, learning rate 0.05000, train_loss 0.018744, test_loss 0.009181
+epoch: 24, learning rate 0.05000, train_loss 0.018708, test_loss 0.009238
+epoch: 25, learning rate 0.05000, train_loss 0.018673, test_loss 0.009297
+epoch: 26, learning rate 0.05000, train_loss 0.018639, test_loss 0.009355
+epoch: 27, learning rate 0.05000, train_loss 0.018605, test_loss 0.009415
+epoch: 28, learning rate 0.05000, train_loss 0.018572, test_loss 0.009474
+epoch: 29, learning rate 0.05000, train_loss 0.018540, test_loss 0.009535
+epoch: 30, learning rate 0.05000, train_loss 0.018508, test_loss 0.009595
+epoch: 31, learning rate 0.00500, train_loss 0.004284, test_loss 0.002403
+epoch: 32, learning rate 0.00500, train_loss 0.002505, test_loss 0.002409
+epoch: 33, learning rate 0.00500, train_loss 0.002493, test_loss 0.002409
+epoch: 34, learning rate 0.00500, train_loss 0.002486, test_loss 0.002408
+epoch: 35, learning rate 0.00500, train_loss 0.002480, test_loss 0.002407
+epoch: 36, learning rate 0.00500, train_loss 0.002475, test_loss 0.002405
+epoch: 37, learning rate 0.00500, train_loss 0.002471, test_loss 0.002403
+epoch: 38, learning rate 0.00500, train_loss 0.002467, test_loss 0.002402
+epoch: 39, learning rate 0.00500, train_loss 0.002464, test_loss 0.002400
+epoch: 40, learning rate 0.00500, train_loss 0.002461, test_loss 0.002399
+epoch: 41, learning rate 0.00500, train_loss 0.002458, test_loss 0.002398
+epoch: 42, learning rate 0.00500, train_loss 0.002456, test_loss 0.002397
+epoch: 43, learning rate 0.00500, train_loss 0.002453, test_loss 0.002396
+epoch: 44, learning rate 0.00500, train_loss 0.002451, test_loss 0.002395
+epoch: 45, learning rate 0.00500, train_loss 0.002449, test_loss 0.002394
+epoch: 46, learning rate 0.00500, train_loss 0.002447, test_loss 0.002393
+epoch: 47, learning rate 0.00500, train_loss 0.002445, test_loss 0.002392
+epoch: 48, learning rate 0.00500, train_loss 0.002444, test_loss 0.002392
+epoch: 49, learning rate 0.00500, train_loss 0.002442, test_loss 0.002391
+epoch: 50, learning rate 0.00500, train_loss 0.002441, test_loss 0.002390
+epoch: 51, learning rate 0.00500, train_loss 0.002439, test_loss 0.002390
+epoch: 52, learning rate 0.00500, train_loss 0.002438, test_loss 0.002389
+epoch: 53, learning rate 0.00500, train_loss 0.002436, test_loss 0.002389
+epoch: 54, learning rate 0.00500, train_loss 0.002435, test_loss 0.002388
+epoch: 55, learning rate 0.00500, train_loss 0.002434, test_loss 0.002388
+epoch: 56, learning rate 0.00500, train_loss 0.002433, test_loss 0.002387
+epoch: 57, learning rate 0.00500, train_loss 0.002432, test_loss 0.002387
+epoch: 58, learning rate 0.00500, train_loss 0.002431, test_loss 0.002387
+epoch: 59, learning rate 0.00500, train_loss 0.002430, test_loss 0.002386
+epoch: 60, learning rate 0.00500, train_loss 0.002429, test_loss 0.002386
+epoch: 61, learning rate 0.00050, train_loss 0.002230, test_loss 0.002353
+epoch: 62, learning rate 0.00050, train_loss 0.002227, test_loss 0.002352
+epoch: 63, learning rate 0.00050, train_loss 0.002227, test_loss 0.002351
+epoch: 64, learning rate 0.00050, train_loss 0.002226, test_loss 0.002351
+epoch: 65, learning rate 0.00050, train_loss 0.002226, test_loss 0.002350
+epoch: 66, learning rate 0.00050, train_loss 0.002225, test_loss 0.002350
+epoch: 67, learning rate 0.00050, train_loss 0.002225, test_loss 0.002350
+epoch: 68, learning rate 0.00050, train_loss 0.002225, test_loss 0.002349
+epoch: 69, learning rate 0.00050, train_loss 0.002224, test_loss 0.002349
+epoch: 70, learning rate 0.00050, train_loss 0.002224, test_loss 0.002349
+epoch: 71, learning rate 0.00050, train_loss 0.002224, test_loss 0.002349
+epoch: 72, learning rate 0.00050, train_loss 0.002223, test_loss 0.002348
+epoch: 73, learning rate 0.00050, train_loss 0.002223, test_loss 0.002348
+epoch: 74, learning rate 0.00050, train_loss 0.002222, test_loss 0.002348
+epoch: 75, learning rate 0.00050, train_loss 0.002222, test_loss 0.002348
+epoch: 76, learning rate 0.00050, train_loss 0.002222, test_loss 0.002347
+epoch: 77, learning rate 0.00050, train_loss 0.002221, test_loss 0.002347
+epoch: 78, learning rate 0.00050, train_loss 0.002221, test_loss 0.002347
+epoch: 79, learning rate 0.00050, train_loss 0.002221, test_loss 0.002347
+epoch: 80, learning rate 0.00050, train_loss 0.002221, test_loss 0.002347
+epoch: 81, learning rate 0.00050, train_loss 0.002220, test_loss 0.002346
+epoch: 82, learning rate 0.00050, train_loss 0.002220, test_loss 0.002346
+epoch: 83, learning rate 0.00050, train_loss 0.002220, test_loss 0.002346
+epoch: 84, learning rate 0.00050, train_loss 0.002219, test_loss 0.002346
+epoch: 85, learning rate 0.00050, train_loss 0.002219, test_loss 0.002346
+epoch: 86, learning rate 0.00050, train_loss 0.002219, test_loss 0.002345
+epoch: 87, learning rate 0.00050, train_loss 0.002218, test_loss 0.002345
+epoch: 88, learning rate 0.00050, train_loss 0.002218, test_loss 0.002345
+epoch: 89, learning rate 0.00050, train_loss 0.002218, test_loss 0.002345
+epoch: 90, learning rate 0.00050, train_loss 0.002218, test_loss 0.002345
+Best train, test loss 0.002218 0.002345
+The input_dim is 64 The hidden_dim is 100
+The interval is 7 The batch_size is 7
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+===============================================================================
+===============================================================================
+The input_dim is 64 The hidden_dim is 100
+The interval is 8 The batch_size is 100
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+Reading pkl data...
+Loading data...
+((1000, 234, 64), (1000, 234, 8))
+((1000, 23, 64), (1000, 23, 8))
+0.221130866847
+0.116174505208
+epoch:  1, learning rate 0.05000, train_loss 0.024551, test_loss 0.005192
+epoch:  2, learning rate 0.05000, train_loss 0.024590, test_loss 0.005179
+epoch:  3, learning rate 0.05000, train_loss 0.024490, test_loss 0.005175
+epoch:  4, learning rate 0.05000, train_loss 0.024419, test_loss 0.005175
+epoch:  5, learning rate 0.05000, train_loss 0.024361, test_loss 0.005177
+epoch:  6, learning rate 0.05000, train_loss 0.024312, test_loss 0.005182
+epoch:  7, learning rate 0.05000, train_loss 0.024267, test_loss 0.005188
+epoch:  8, learning rate 0.05000, train_loss 0.024226, test_loss 0.005195
+epoch:  9, learning rate 0.05000, train_loss 0.024187, test_loss 0.005203
+epoch: 10, learning rate 0.05000, train_loss 0.024150, test_loss 0.005212
+epoch: 11, learning rate 0.05000, train_loss 0.024114, test_loss 0.005222
+epoch: 12, learning rate 0.05000, train_loss 0.024079, test_loss 0.005232
+epoch: 13, learning rate 0.05000, train_loss 0.024044, test_loss 0.005244
+epoch: 14, learning rate 0.05000, train_loss 0.024010, test_loss 0.005256
+epoch: 15, learning rate 0.05000, train_loss 0.023976, test_loss 0.005269
+epoch: 16, learning rate 0.05000, train_loss 0.023943, test_loss 0.005282
+epoch: 17, learning rate 0.05000, train_loss 0.023909, test_loss 0.005296
+epoch: 18, learning rate 0.05000, train_loss 0.023876, test_loss 0.005311
+epoch: 19, learning rate 0.05000, train_loss 0.023843, test_loss 0.005326
+epoch: 20, learning rate 0.05000, train_loss 0.023811, test_loss 0.005341
+epoch: 21, learning rate 0.05000, train_loss 0.023778, test_loss 0.005357
+epoch: 22, learning rate 0.05000, train_loss 0.023745, test_loss 0.005374
+epoch: 23, learning rate 0.05000, train_loss 0.023713, test_loss 0.005391
+epoch: 24, learning rate 0.05000, train_loss 0.023680, test_loss 0.005408
+epoch: 25, learning rate 0.05000, train_loss 0.023648, test_loss 0.005426
+epoch: 26, learning rate 0.05000, train_loss 0.023616, test_loss 0.005444
+epoch: 27, learning rate 0.05000, train_loss 0.023584, test_loss 0.005462
+epoch: 28, learning rate 0.05000, train_loss 0.023552, test_loss 0.005480
+epoch: 29, learning rate 0.05000, train_loss 0.023519, test_loss 0.005499
+epoch: 30, learning rate 0.05000, train_loss 0.023487, test_loss 0.005518
+epoch: 31, learning rate 0.00500, train_loss 0.003085, test_loss 0.002614
+epoch: 32, learning rate 0.00500, train_loss 0.002603, test_loss 0.002600
+epoch: 33, learning rate 0.00500, train_loss 0.002601, test_loss 0.002594
+epoch: 34, learning rate 0.00500, train_loss 0.002599, test_loss 0.002590
+epoch: 35, learning rate 0.00500, train_loss 0.002598, test_loss 0.002587
+epoch: 36, learning rate 0.00500, train_loss 0.002597, test_loss 0.002584
+epoch: 37, learning rate 0.00500, train_loss 0.002596, test_loss 0.002582
+epoch: 38, learning rate 0.00500, train_loss 0.002595, test_loss 0.002580
+epoch: 39, learning rate 0.00500, train_loss 0.002594, test_loss 0.002579
+epoch: 40, learning rate 0.00500, train_loss 0.002593, test_loss 0.002577
+epoch: 41, learning rate 0.00500, train_loss 0.002593, test_loss 0.002576
+epoch: 42, learning rate 0.00500, train_loss 0.002592, test_loss 0.002574
+epoch: 43, learning rate 0.00500, train_loss 0.002591, test_loss 0.002573
+epoch: 44, learning rate 0.00500, train_loss 0.002591, test_loss 0.002572
+epoch: 45, learning rate 0.00500, train_loss 0.002590, test_loss 0.002570
+epoch: 46, learning rate 0.00500, train_loss 0.002590, test_loss 0.002569
+epoch: 47, learning rate 0.00500, train_loss 0.002589, test_loss 0.002568
+epoch: 48, learning rate 0.00500, train_loss 0.002589, test_loss 0.002567
+epoch: 49, learning rate 0.00500, train_loss 0.002589, test_loss 0.002566
+epoch: 50, learning rate 0.00500, train_loss 0.002588, test_loss 0.002565
+epoch: 51, learning rate 0.00500, train_loss 0.002588, test_loss 0.002564
+epoch: 52, learning rate 0.00500, train_loss 0.002587, test_loss 0.002563
+epoch: 53, learning rate 0.00500, train_loss 0.002587, test_loss 0.002562
+epoch: 54, learning rate 0.00500, train_loss 0.002587, test_loss 0.002561
+epoch: 55, learning rate 0.00500, train_loss 0.002586, test_loss 0.002560
+epoch: 56, learning rate 0.00500, train_loss 0.002586, test_loss 0.002559
+epoch: 57, learning rate 0.00500, train_loss 0.002586, test_loss 0.002558
+epoch: 58, learning rate 0.00500, train_loss 0.002586, test_loss 0.002557
+epoch: 59, learning rate 0.00500, train_loss 0.002585, test_loss 0.002556
+epoch: 60, learning rate 0.00500, train_loss 0.002585, test_loss 0.002556
+epoch: 61, learning rate 0.00050, train_loss 0.002400, test_loss 0.002489
+epoch: 62, learning rate 0.00050, train_loss 0.002392, test_loss 0.002487
+epoch: 63, learning rate 0.00050, train_loss 0.002392, test_loss 0.002486
+epoch: 64, learning rate 0.00050, train_loss 0.002391, test_loss 0.002485
+epoch: 65, learning rate 0.00050, train_loss 0.002391, test_loss 0.002485
+epoch: 66, learning rate 0.00050, train_loss 0.002391, test_loss 0.002484
+epoch: 67, learning rate 0.00050, train_loss 0.002390, test_loss 0.002484
+epoch: 68, learning rate 0.00050, train_loss 0.002390, test_loss 0.002484
+epoch: 69, learning rate 0.00050, train_loss 0.002390, test_loss 0.002484
+epoch: 70, learning rate 0.00050, train_loss 0.002389, test_loss 0.002483
+epoch: 71, learning rate 0.00050, train_loss 0.002389, test_loss 0.002483
+epoch: 72, learning rate 0.00050, train_loss 0.002389, test_loss 0.002483
+epoch: 73, learning rate 0.00050, train_loss 0.002389, test_loss 0.002483
+epoch: 74, learning rate 0.00050, train_loss 0.002388, test_loss 0.002483
+epoch: 75, learning rate 0.00050, train_loss 0.002388, test_loss 0.002483
+epoch: 76, learning rate 0.00050, train_loss 0.002388, test_loss 0.002482
+epoch: 77, learning rate 0.00050, train_loss 0.002387, test_loss 0.002482
+epoch: 78, learning rate 0.00050, train_loss 0.002387, test_loss 0.002482
+epoch: 79, learning rate 0.00050, train_loss 0.002387, test_loss 0.002482
+epoch: 80, learning rate 0.00050, train_loss 0.002387, test_loss 0.002482
+epoch: 81, learning rate 0.00050, train_loss 0.002386, test_loss 0.002482
+epoch: 82, learning rate 0.00050, train_loss 0.002386, test_loss 0.002482
+epoch: 83, learning rate 0.00050, train_loss 0.002386, test_loss 0.002482
+epoch: 84, learning rate 0.00050, train_loss 0.002386, test_loss 0.002482
+epoch: 85, learning rate 0.00050, train_loss 0.002385, test_loss 0.002482
+epoch: 86, learning rate 0.00050, train_loss 0.002385, test_loss 0.002482
+epoch: 87, learning rate 0.00050, train_loss 0.002385, test_loss 0.002482
+epoch: 88, learning rate 0.00050, train_loss 0.002385, test_loss 0.002482
+epoch: 89, learning rate 0.00050, train_loss 0.002384, test_loss 0.002482
+epoch: 90, learning rate 0.00050, train_loss 0.002384, test_loss 0.002482
+Best train, test loss 0.002384 0.002482
+The input_dim is 64 The hidden_dim is 100
+The interval is 8 The batch_size is 8
+The data_path is /home/tyrion/Documents/Cloud Computing/python/data/1000/cpu_load.pkl
+===============================================================================

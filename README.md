@@ -2,7 +2,7 @@
 
 > host load prediction with Long Short-Term Memory in cloud computing
 
-<img src="./draw/picture/rnn.png" style="width:25%;" alt="RNN" align=center />
+<img src="./draw/picture/rnn.png" style="width:85%;" alt="RNN" align=center />
 
 - [Google cluster data](./Google_cluster_data) Preprocess the Google cluster data
 - [Grid](./Grid) Preprocess the Grid dataset

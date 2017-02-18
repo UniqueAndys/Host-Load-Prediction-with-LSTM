@@ -2,7 +2,7 @@
 
 > host load prediction with Long Short-Term Memory in cloud computing
 
-![](./draw/picture/rnn.png)
+<img src="./draw/picture/rnn.png" style="width:85%;" alt="RNN" align=center />
 
 - [Google cluster data](./Google_cluster_data) Preprocess the Google cluster data
 - [Grid](./Grid) Preprocess the Grid dataset
@@ -10,4 +10,4 @@
 - [tensorflow](./tensorflow) The main tensorflow code of realizing the project
 - [draw](./draw) Drawing some comparing figures of the results
 
-![](./draw/picture/lstm.png)
+<img src="./draw/picture/lstm.png" style="width:70%;" alt="RNN" align=center />
